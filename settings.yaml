@@ -1,0 +1,9 @@
+# Scoring- und Laufzeit-Einstellungen
+
+poll_interval_seconds: 60      # wie oft neue Transaktionen abgefragt werden
+lookback_hours: 24              # Zeitfenster fuer Aggregation pro Coin
+
+scoring:
+  weight_per_wallet: 10          # Punkte je zusaetzlicher Smart-Money-Wallet
+  weight_per_usd: 0.0001         # Punkte je investiertem USD
+  signal_threshold: 100           # ab diesem Score wird ein Alert ausgeloest
