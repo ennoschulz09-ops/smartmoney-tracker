@@ -1,0 +1,10 @@
+# Liste der zu beobachtenden Smart-Money-Wallets
+# label: frei waehlbarer Name, address: Onchain-Adresse, chain: ethereum/bsc/solana
+
+wallets:
+  - label: "example-wallet-1"
+    address: "0x0000000000000000000000000000000000dead"
+    chain: "ethereum"
+  - label: "example-wallet-2"
+    address: "0x0000000000000000000000000000000000beef"
+    chain: "ethereum"
